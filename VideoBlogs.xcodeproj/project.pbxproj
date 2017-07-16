@@ -38,17 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B2AAD4401F17EAC7004EB3FA /* practica3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practica3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AAD4401F17EAC7004EB3FA /* VideoBlogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoBlogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AAD4431F17EAC7004EB3FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2AAD4451F17EAC7004EB3FA /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		B2AAD4481F17EAC7004EB3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2AAD44A1F17EAC7004EB3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2AAD44A1F17EAC7004EB3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = VideoBlogs/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		B2AAD44D1F17EAC7004EB3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2AAD44F1F17EAC7004EB3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2AAD4541F17EAC7004EB3FA /* practica3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practica3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AAD4541F17EAC7004EB3FA /* VideoBlogsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoBlogsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AAD4581F17EAC7004EB3FA /* practica3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica3Tests.swift; sourceTree = "<group>"; };
 		B2AAD45A1F17EAC7004EB3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2AAD45F1F17EAC7004EB3FA /* practica3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practica3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AAD45F1F17EAC7004EB3FA /* VideoBlogsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoBlogsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AAD4631F17EAC7004EB3FA /* practica3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica3UITests.swift; sourceTree = "<group>"; };
 		B2AAD4651F17EAC7004EB3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2AAD4731F17EE67004EB3FA /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
@@ -85,9 +85,9 @@
 		B2AAD4371F17EAC7004EB3FA = {
 			isa = PBXGroup;
 			children = (
-				B2AAD4421F17EAC7004EB3FA /* practica3 */,
-				B2AAD4571F17EAC7004EB3FA /* practica3Tests */,
-				B2AAD4621F17EAC7004EB3FA /* practica3UITests */,
+				B2AAD4421F17EAC7004EB3FA /* VideoBlogs */,
+				B2AAD4571F17EAC7004EB3FA /* VideoBlogsTests */,
+				B2AAD4621F17EAC7004EB3FA /* VideoBlogsUITests */,
 				B2AAD4411F17EAC7004EB3FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,14 +95,14 @@
 		B2AAD4411F17EAC7004EB3FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2AAD4401F17EAC7004EB3FA /* practica3.app */,
-				B2AAD4541F17EAC7004EB3FA /* practica3Tests.xctest */,
-				B2AAD45F1F17EAC7004EB3FA /* practica3UITests.xctest */,
+				B2AAD4401F17EAC7004EB3FA /* VideoBlogs.app */,
+				B2AAD4541F17EAC7004EB3FA /* VideoBlogsTests.xctest */,
+				B2AAD45F1F17EAC7004EB3FA /* VideoBlogsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B2AAD4421F17EAC7004EB3FA /* practica3 */ = {
+		B2AAD4421F17EAC7004EB3FA /* VideoBlogs */ = {
 			isa = PBXGroup;
 			children = (
 				B2AAD4771F17EFB2004EB3FA /* Model */,
@@ -114,24 +114,26 @@
 				B2AAD44C1F17EAC7004EB3FA /* LaunchScreen.storyboard */,
 				B2AAD44F1F17EAC7004EB3FA /* Info.plist */,
 			);
-			path = practica3;
-			sourceTree = "<group>";
+			path = VideoBlogs;
+			sourceTree = SOURCE_ROOT;
 		};
-		B2AAD4571F17EAC7004EB3FA /* practica3Tests */ = {
+		B2AAD4571F17EAC7004EB3FA /* VideoBlogsTests */ = {
 			isa = PBXGroup;
 			children = (
 				B2AAD4581F17EAC7004EB3FA /* practica3Tests.swift */,
 				B2AAD45A1F17EAC7004EB3FA /* Info.plist */,
 			);
+			name = VideoBlogsTests;
 			path = practica3Tests;
 			sourceTree = "<group>";
 		};
-		B2AAD4621F17EAC7004EB3FA /* practica3UITests */ = {
+		B2AAD4621F17EAC7004EB3FA /* VideoBlogsUITests */ = {
 			isa = PBXGroup;
 			children = (
 				B2AAD4631F17EAC7004EB3FA /* practica3UITests.swift */,
 				B2AAD4651F17EAC7004EB3FA /* Info.plist */,
 			);
+			name = VideoBlogsUITests;
 			path = practica3UITests;
 			sourceTree = "<group>";
 		};
@@ -164,9 +166,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B2AAD43F1F17EAC7004EB3FA /* practica3 */ = {
+		B2AAD43F1F17EAC7004EB3FA /* VideoBlogs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2AAD4681F17EAC7004EB3FA /* Build configuration list for PBXNativeTarget "practica3" */;
+			buildConfigurationList = B2AAD4681F17EAC7004EB3FA /* Build configuration list for PBXNativeTarget "VideoBlogs" */;
 			buildPhases = (
 				B2AAD43C1F17EAC7004EB3FA /* Sources */,
 				B2AAD43D1F17EAC7004EB3FA /* Frameworks */,
@@ -176,14 +178,14 @@
 			);
 			dependencies = (
 			);
-			name = practica3;
+			name = VideoBlogs;
 			productName = practica3;
-			productReference = B2AAD4401F17EAC7004EB3FA /* practica3.app */;
+			productReference = B2AAD4401F17EAC7004EB3FA /* VideoBlogs.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B2AAD4531F17EAC7004EB3FA /* practica3Tests */ = {
+		B2AAD4531F17EAC7004EB3FA /* VideoBlogsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2AAD46B1F17EAC7004EB3FA /* Build configuration list for PBXNativeTarget "practica3Tests" */;
+			buildConfigurationList = B2AAD46B1F17EAC7004EB3FA /* Build configuration list for PBXNativeTarget "VideoBlogsTests" */;
 			buildPhases = (
 				B2AAD4501F17EAC7004EB3FA /* Sources */,
 				B2AAD4511F17EAC7004EB3FA /* Frameworks */,
@@ -194,14 +196,14 @@
 			dependencies = (
 				B2AAD4561F17EAC7004EB3FA /* PBXTargetDependency */,
 			);
-			name = practica3Tests;
+			name = VideoBlogsTests;
 			productName = practica3Tests;
-			productReference = B2AAD4541F17EAC7004EB3FA /* practica3Tests.xctest */;
+			productReference = B2AAD4541F17EAC7004EB3FA /* VideoBlogsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B2AAD45E1F17EAC7004EB3FA /* practica3UITests */ = {
+		B2AAD45E1F17EAC7004EB3FA /* VideoBlogsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2AAD46E1F17EAC7004EB3FA /* Build configuration list for PBXNativeTarget "practica3UITests" */;
+			buildConfigurationList = B2AAD46E1F17EAC7004EB3FA /* Build configuration list for PBXNativeTarget "VideoBlogsUITests" */;
 			buildPhases = (
 				B2AAD45B1F17EAC7004EB3FA /* Sources */,
 				B2AAD45C1F17EAC7004EB3FA /* Frameworks */,
@@ -212,9 +214,9 @@
 			dependencies = (
 				B2AAD4611F17EAC7004EB3FA /* PBXTargetDependency */,
 			);
-			name = practica3UITests;
+			name = VideoBlogsUITests;
 			productName = practica3UITests;
-			productReference = B2AAD45F1F17EAC7004EB3FA /* practica3UITests.xctest */;
+			productReference = B2AAD45F1F17EAC7004EB3FA /* VideoBlogsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -243,7 +245,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B2AAD43B1F17EAC7004EB3FA /* Build configuration list for PBXProject "practica3" */;
+			buildConfigurationList = B2AAD43B1F17EAC7004EB3FA /* Build configuration list for PBXProject "VideoBlogs" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -256,9 +258,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B2AAD43F1F17EAC7004EB3FA /* practica3 */,
-				B2AAD4531F17EAC7004EB3FA /* practica3Tests */,
-				B2AAD45E1F17EAC7004EB3FA /* practica3UITests */,
+				B2AAD43F1F17EAC7004EB3FA /* VideoBlogs */,
+				B2AAD4531F17EAC7004EB3FA /* VideoBlogsTests */,
+				B2AAD45E1F17EAC7004EB3FA /* VideoBlogsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -325,12 +327,12 @@
 /* Begin PBXTargetDependency section */
 		B2AAD4561F17EAC7004EB3FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B2AAD43F1F17EAC7004EB3FA /* practica3 */;
+			target = B2AAD43F1F17EAC7004EB3FA /* VideoBlogs */;
 			targetProxy = B2AAD4551F17EAC7004EB3FA /* PBXContainerItemProxy */;
 		};
 		B2AAD4611F17EAC7004EB3FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B2AAD43F1F17EAC7004EB3FA /* practica3 */;
+			target = B2AAD43F1F17EAC7004EB3FA /* VideoBlogs */;
 			targetProxy = B2AAD4601F17EAC7004EB3FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -456,7 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = practica3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Dymtech.practica3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dymtech.VideoBlogs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -468,7 +470,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = practica3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Dymtech.practica3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dymtech.VideoBlogs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -484,7 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Dymtech.practica3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practica3.app/practica3";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoBlogs.app/VideoBlogs";
 			};
 			name = Debug;
 		};
@@ -498,7 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Dymtech.practica3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practica3.app/practica3";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoBlogs.app/VideoBlogs";
 			};
 			name = Release;
 		};
@@ -531,7 +533,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B2AAD43B1F17EAC7004EB3FA /* Build configuration list for PBXProject "practica3" */ = {
+		B2AAD43B1F17EAC7004EB3FA /* Build configuration list for PBXProject "VideoBlogs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2AAD4661F17EAC7004EB3FA /* Debug */,
@@ -540,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2AAD4681F17EAC7004EB3FA /* Build configuration list for PBXNativeTarget "practica3" */ = {
+		B2AAD4681F17EAC7004EB3FA /* Build configuration list for PBXNativeTarget "VideoBlogs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2AAD4691F17EAC7004EB3FA /* Debug */,
@@ -549,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2AAD46B1F17EAC7004EB3FA /* Build configuration list for PBXNativeTarget "practica3Tests" */ = {
+		B2AAD46B1F17EAC7004EB3FA /* Build configuration list for PBXNativeTarget "VideoBlogsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2AAD46C1F17EAC7004EB3FA /* Debug */,
@@ -558,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2AAD46E1F17EAC7004EB3FA /* Build configuration list for PBXNativeTarget "practica3UITests" */ = {
+		B2AAD46E1F17EAC7004EB3FA /* Build configuration list for PBXNativeTarget "VideoBlogsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2AAD46F1F17EAC7004EB3FA /* Debug */,

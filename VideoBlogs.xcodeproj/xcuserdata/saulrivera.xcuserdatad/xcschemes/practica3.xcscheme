@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B2AAD43F1F17EAC7004EB3FA"
-               BuildableName = "practica3.app"
-               BlueprintName = "practica3"
-               ReferencedContainer = "container:practica3.xcodeproj">
+               BuildableName = "VideoBlogs.app"
+               BlueprintName = "VideoBlogs"
+               ReferencedContainer = "container:VideoBlogs.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B2AAD4531F17EAC7004EB3FA"
-               BuildableName = "practica3Tests.xctest"
-               BlueprintName = "practica3Tests"
-               ReferencedContainer = "container:practica3.xcodeproj">
+               BuildableName = "VideoBlogsTests.xctest"
+               BlueprintName = "VideoBlogsTests"
+               ReferencedContainer = "container:VideoBlogs.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B2AAD45E1F17EAC7004EB3FA"
-               BuildableName = "practica3UITests.xctest"
-               BlueprintName = "practica3UITests"
-               ReferencedContainer = "container:practica3.xcodeproj">
+               BuildableName = "VideoBlogsUITests.xctest"
+               BlueprintName = "VideoBlogsUITests"
+               ReferencedContainer = "container:VideoBlogs.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B2AAD43F1F17EAC7004EB3FA"
-            BuildableName = "practica3.app"
-            BlueprintName = "practica3"
-            ReferencedContainer = "container:practica3.xcodeproj">
+            BuildableName = "VideoBlogs.app"
+            BlueprintName = "VideoBlogs"
+            ReferencedContainer = "container:VideoBlogs.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B2AAD43F1F17EAC7004EB3FA"
-            BuildableName = "practica3.app"
-            BlueprintName = "practica3"
-            ReferencedContainer = "container:practica3.xcodeproj">
+            BuildableName = "VideoBlogs.app"
+            BlueprintName = "VideoBlogs"
+            ReferencedContainer = "container:VideoBlogs.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B2AAD43F1F17EAC7004EB3FA"
-            BuildableName = "practica3.app"
-            BlueprintName = "practica3"
-            ReferencedContainer = "container:practica3.xcodeproj">
+            BuildableName = "VideoBlogs.app"
+            BlueprintName = "VideoBlogs"
+            ReferencedContainer = "container:VideoBlogs.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
