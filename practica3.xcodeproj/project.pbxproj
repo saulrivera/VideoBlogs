@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B2AAD4441F17EAC7004EB3FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AAD4431F17EAC7004EB3FA /* AppDelegate.swift */; };
-		B2AAD4461F17EAC7004EB3FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AAD4451F17EAC7004EB3FA /* ViewController.swift */; };
+		B2AAD4461F17EAC7004EB3FA /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AAD4451F17EAC7004EB3FA /* MainVC.swift */; };
 		B2AAD4491F17EAC7004EB3FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2AAD4471F17EAC7004EB3FA /* Main.storyboard */; };
 		B2AAD44B1F17EAC7004EB3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2AAD44A1F17EAC7004EB3FA /* Assets.xcassets */; };
 		B2AAD44E1F17EAC7004EB3FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2AAD44C1F17EAC7004EB3FA /* LaunchScreen.storyboard */; };
 		B2AAD4591F17EAC7004EB3FA /* practica3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AAD4581F17EAC7004EB3FA /* practica3Tests.swift */; };
 		B2AAD4641F17EAC7004EB3FA /* practica3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AAD4631F17EAC7004EB3FA /* practica3UITests.swift */; };
+		B2AAD4741F17EE67004EB3FA /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AAD4731F17EE67004EB3FA /* TableView.swift */; };
+		B2AAD4761F17EE9C004EB3FA /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AAD4751F17EE9C004EB3FA /* VideoVC.swift */; };
+		B2AAD4791F17EFC8004EB3FA /* CellClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AAD4781F17EFC8004EB3FA /* CellClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		B2AAD4401F17EAC7004EB3FA /* practica3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practica3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AAD4431F17EAC7004EB3FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2AAD4451F17EAC7004EB3FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2AAD4451F17EAC7004EB3FA /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		B2AAD4481F17EAC7004EB3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2AAD44A1F17EAC7004EB3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2AAD44D1F17EAC7004EB3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		B2AAD45F1F17EAC7004EB3FA /* practica3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practica3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AAD4631F17EAC7004EB3FA /* practica3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica3UITests.swift; sourceTree = "<group>"; };
 		B2AAD4651F17EAC7004EB3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2AAD4731F17EE67004EB3FA /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		B2AAD4751F17EE9C004EB3FA /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		B2AAD4781F17EFC8004EB3FA /* CellClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,10 @@
 		B2AAD4421F17EAC7004EB3FA /* practica3 */ = {
 			isa = PBXGroup;
 			children = (
+				B2AAD4771F17EFB2004EB3FA /* Model */,
+				B2AAD4711F17EADE004EB3FA /* View */,
+				B2AAD4721F17EAE7004EB3FA /* Controller */,
 				B2AAD4431F17EAC7004EB3FA /* AppDelegate.swift */,
-				B2AAD4451F17EAC7004EB3FA /* ViewController.swift */,
 				B2AAD4471F17EAC7004EB3FA /* Main.storyboard */,
 				B2AAD44A1F17EAC7004EB3FA /* Assets.xcassets */,
 				B2AAD44C1F17EAC7004EB3FA /* LaunchScreen.storyboard */,
@@ -123,6 +131,31 @@
 				B2AAD4651F17EAC7004EB3FA /* Info.plist */,
 			);
 			path = practica3UITests;
+			sourceTree = "<group>";
+		};
+		B2AAD4711F17EADE004EB3FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2AAD4731F17EE67004EB3FA /* TableView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B2AAD4721F17EAE7004EB3FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B2AAD4451F17EAC7004EB3FA /* MainVC.swift */,
+				B2AAD4751F17EE9C004EB3FA /* VideoVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B2AAD4771F17EFB2004EB3FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2AAD4781F17EFC8004EB3FA /* CellClass.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2AAD4461F17EAC7004EB3FA /* ViewController.swift in Sources */,
+				B2AAD4791F17EFC8004EB3FA /* CellClass.swift in Sources */,
+				B2AAD4761F17EE9C004EB3FA /* VideoVC.swift in Sources */,
+				B2AAD4461F17EAC7004EB3FA /* MainVC.swift in Sources */,
+				B2AAD4741F17EE67004EB3FA /* TableView.swift in Sources */,
 				B2AAD4441F17EAC7004EB3FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
