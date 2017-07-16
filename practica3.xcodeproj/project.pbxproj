@@ -17,6 +17,7 @@
 		B2AAD4741F17EE67004EB3FA /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AAD4731F17EE67004EB3FA /* TableView.swift */; };
 		B2AAD4761F17EE9C004EB3FA /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AAD4751F17EE9C004EB3FA /* VideoVC.swift */; };
 		B2AAD4791F17EFC8004EB3FA /* CellClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AAD4781F17EFC8004EB3FA /* CellClass.swift */; };
+		B2CF402A1F1C0CDD00FAD5BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF40291F1C0CDD00FAD5BD /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B2AAD4731F17EE67004EB3FA /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		B2AAD4751F17EE9C004EB3FA /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
 		B2AAD4781F17EFC8004EB3FA /* CellClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellClass.swift; sourceTree = "<group>"; };
+		B2CF40291F1C0CDD00FAD5BD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				B2AAD4781F17EFC8004EB3FA /* CellClass.swift */,
+				B2CF40291F1C0CDD00FAD5BD /* Constants.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				B2AAD4461F17EAC7004EB3FA /* MainVC.swift in Sources */,
 				B2AAD4741F17EE67004EB3FA /* TableView.swift in Sources */,
 				B2AAD4441F17EAC7004EB3FA /* AppDelegate.swift in Sources */,
+				B2CF402A1F1C0CDD00FAD5BD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +547,7 @@
 				B2AAD46A1F17EAC7004EB3FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2AAD46B1F17EAC7004EB3FA /* Build configuration list for PBXNativeTarget "practica3Tests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +556,7 @@
 				B2AAD46D1F17EAC7004EB3FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2AAD46E1F17EAC7004EB3FA /* Build configuration list for PBXNativeTarget "practica3UITests" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +565,7 @@
 				B2AAD4701F17EAC7004EB3FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

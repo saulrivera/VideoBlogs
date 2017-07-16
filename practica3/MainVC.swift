@@ -17,11 +17,11 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     override func viewDidLoad() {
         
         let p1 = Cell(imageURL: "https://pbs.twimg.com/profile_images/587949417577066499/3uCD4xxY.jpg",
-                      videoURL: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZorehxjL43E\" frameborder=\"0\" allowfullscreen></iframe>",
-                      labelVideo: "Hello it's me")
+                      videoURL: start + "https://www.youtube.com/embed/uhRhtFFhNzQ" + end,
+                      labelVideo: "How do you explain consciousness? | David Chalmers")
         let p2 = Cell(imageURL: "https://pbs.twimg.com/profile_images/641353910561566720/VSxsyxs7.jpg",
-                      videoURL: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZorehxjL43E\" frameborder=\"0\" allowfullscreen></iframe>",
-                      labelVideo: "Baby")
+                      videoURL: start + "https://www.youtube.com/embed/zIwLWfaAg-8" + end,
+                      labelVideo: "The future we're building -- and boring | Elon Musk")
         container.append(p1)
         container.append(p2)
         
