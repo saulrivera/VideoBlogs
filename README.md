@@ -2,5 +2,5 @@
 
 Catch videos from the web to be shown in an easy way
 
-![alt text](https://raw.githubusercontent.com/saulrivera/VideoBlogs/master/snaps/front.png)
-![alt text](https://raw.githubusercontent.com/saulrivera/VideoBlogs/master/snaps/video.png)
+<img src="https://raw.githubusercontent.com/saulrivera/VideoBlogs/master/snaps/front.png" width="400" align="left">
+<img src="https://raw.githubusercontent.com/saulrivera/VideoBlogs/master/snaps/video.png" width="400" align="left">
